@@ -180,11 +180,6 @@ exec --no-startup-id i3-msg 'workspace 9.mail; exec urxvt -e mutt'
 exec --no-startup-id i3-msg 'workspace 10.htop; exec urxvt -e htop'
 exec --no-startup-id conky -c ~/.i3_conky/conkyrc_sys
 exec --no-startup-id conky -c ~/.i3_conky/conkyrc_stock
-# exec --no-startup-id conky -c ~/.i3_conky/conkyrc_sc
-# exec --no-startup-id conky -c ~/.i3_conky/conkyrc_sranger
-# exec --no-startup-id conky -c ~/.i3_conky/conkyrc_emacs
-# exec --no-startup-id conky -c ~/.i3_conky/conkyrc_finch
-# exec ./.script_bash/conky_reload.sh
 
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
